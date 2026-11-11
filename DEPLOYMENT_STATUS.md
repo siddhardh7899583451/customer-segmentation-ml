@@ -13,6 +13,4 @@
 - [x] Relative paths for CSS/JS/demo data
 - [x] No backend, no secrets, no local Windows paths
 - [x] Mirrors main dashboard functionality
-- [ ] Space created / published (awaiting explicit authorization)
-
-**Do not deploy until the project owner authorizes it.**
+- [x] Space created / published
