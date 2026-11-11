@@ -1,0 +1,102 @@
+{
+  "dataset_note": "synthetic_demo (python main.py --demo --k 4); not UCI production results",
+  "customer_personas": [
+    {
+      "cluster_id": 0,
+      "persona_name": "Loyal Repeat Regulars",
+      "customer_count": 146,
+      "customer_pct": 29.2,
+      "avg_recency_days": 20.3,
+      "median_recency_days": 18.0,
+      "avg_frequency": 9.0,
+      "median_frequency": 9.0,
+      "avg_monetary": 811.31,
+      "median_monetary": 774.0,
+      "avg_order_value": 91.06,
+      "revenue_contribution_pct": 39.81,
+      "behavioral_traits": [
+        "Dependable repeat purchasing (9.0 orders) with solid total spend ($811.31).",
+        "Recent purchase activity (20.3 days recency)."
+      ],
+      "business_interpretation": "Reliable foundation customers who return consistently to purchase core catalog products.",
+      "marketing_recommendations": [
+        "Incentivize cross-category purchases to elevate average basket size ($75 threshold incentives).",
+        "Automated re-order notifications and subscription replenishment options.",
+        "Referral bonuses rewarding word-of-mouth advocacy."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "persona_name": "Recent Starters & Promising",
+      "customer_count": 169,
+      "customer_pct": 33.8,
+      "avg_recency_days": 38.9,
+      "median_recency_days": 34.0,
+      "avg_frequency": 1.5,
+      "median_frequency": 2.0,
+      "avg_monetary": 65.51,
+      "median_monetary": 45.38,
+      "avg_order_value": 42.42,
+      "revenue_contribution_pct": 3.72,
+      "behavioral_traits": [
+        "Recently placed initial purchases (38.9 days ago) but early in lifecycle (1.5 orders).",
+        "Average initial spend of $65.51."
+      ],
+      "business_interpretation": "Fresh customer acquisitions currently evaluating product quality and delivery experience.",
+      "marketing_recommendations": [
+        "Engaging 3-part welcome email onboarding journey with tutorials and styling guides.",
+        "Time-limited second purchase voucher (valid 14 days) to drive repeat conversion.",
+        "Proactive customer service check-in after order delivery."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "persona_name": "Top-Tier VIP Champions",
+      "customer_count": 49,
+      "customer_pct": 9.8,
+      "avg_recency_days": 2.4,
+      "median_recency_days": 2.0,
+      "avg_frequency": 20.3,
+      "median_frequency": 20.0,
+      "avg_monetary": 2903.25,
+      "median_monetary": 2870.48,
+      "avg_order_value": 143.28,
+      "revenue_contribution_pct": 47.81,
+      "behavioral_traits": [
+        "Highest lifetime value (median $2,870.48) and purchase frequency (20.3 orders).",
+        "Consistently active with recency of 2.4 days.",
+        "Generates 47.81% of total revenue from 9.8% of customer base."
+      ],
+      "business_interpretation": "Highest value core advocates who deliver the vast majority of company profitability.",
+      "marketing_recommendations": [
+        "VIP concierge, dedicated support, and private executive feedback sessions.",
+        "Exclusive preview access to premier inventory releases.",
+        "Reward loyalty without margin-eroding price discounts."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "persona_name": "At-Risk / Lapsed Customers",
+      "customer_count": 136,
+      "customer_pct": 27.2,
+      "avg_recency_days": 188.5,
+      "median_recency_days": 184.0,
+      "avg_frequency": 3.4,
+      "median_frequency": 3.0,
+      "avg_monetary": 189.47,
+      "median_monetary": 158.44,
+      "avg_order_value": 55.48,
+      "revenue_contribution_pct": 8.66,
+      "behavioral_traits": [
+        "Extended inactivity with average recency of 188.5 days.",
+        "Moderate historical engagement (3.4 lifetime orders, $189.47 spend)."
+      ],
+      "business_interpretation": "Former steady buyers showing acute signs of disengagement and churn risk.",
+      "marketing_recommendations": [
+        "Targeted multi-channel win-back campaigns with compelling reactivation offers.",
+        "Customer exit survey inquiring about satisfaction and catalog preferences.",
+        "Product updates showcasing new arrivals since their last transaction."
+      ]
+    }
+  ]
+}

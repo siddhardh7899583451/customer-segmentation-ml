@@ -1,0 +1,501 @@
+customer_id,recency,frequency,monetary,avg_order_value,unique_items,return_rate,is_extreme_outlier,cluster,pca_1,pca_2,segment_name
+10000,7,13,1477.85,113.68,15,0.0078,False,0,2.106,-0.148,Loyal Repeat Regulars
+10001,2,27,4542.06,168.22,15,0.0,True,2,3.472,-0.275,Top-Tier VIP Champions
+10002,3,25,3292.31,131.69,15,0.0,True,2,3.182,-0.188,Top-Tier VIP Champions
+10003,1,14,2046.2,146.16,14,0.0,False,2,2.795,-0.975,Top-Tier VIP Champions
+10004,4,23,3912.11,170.09,15,0.0054,True,2,3.098,-0.026,Top-Tier VIP Champions
+10005,3,26,4139.33,159.2,15,0.0,True,2,3.301,-0.118,Top-Tier VIP Champions
+10006,3,25,3598.35,143.93,15,0.0,True,2,3.216,-0.167,Top-Tier VIP Champions
+10007,2,21,3418.85,162.8,15,0.0029,True,2,3.162,-0.435,Top-Tier VIP Champions
+10008,2,19,2049.67,107.88,15,0.0,False,2,2.888,-0.595,Top-Tier VIP Champions
+10009,1,16,2119.36,132.46,15,0.0063,False,2,2.914,-0.92,Top-Tier VIP Champions
+10010,2,16,1805.98,112.87,15,0.0,False,2,2.704,-0.686,Top-Tier VIP Champions
+10011,1,20,2547.09,127.35,15,0.0053,False,2,3.16,-0.796,Top-Tier VIP Champions
+10012,2,26,3935.9,151.38,15,0.0038,True,2,3.387,-0.324,Top-Tier VIP Champions
+10013,6,23,3319.57,144.33,15,0.0,True,2,2.913,0.16,Top-Tier VIP Champions
+10014,1,27,3937.54,145.83,15,0.0044,True,2,3.566,-0.583,Top-Tier VIP Champions
+10015,5,18,1925.41,106.97,15,0.0042,False,2,2.567,-0.164,Top-Tier VIP Champions
+10016,1,16,2870.48,179.4,15,0.0,True,2,3.028,-0.846,Top-Tier VIP Champions
+10017,1,18,2611.27,145.07,15,0.0,False,2,3.086,-0.827,Top-Tier VIP Champions
+10018,2,21,2543.54,121.12,15,0.0,False,2,3.05,-0.507,Top-Tier VIP Champions
+10019,4,15,1998.76,133.25,15,0.0,False,2,2.504,-0.341,Top-Tier VIP Champions
+10020,3,12,1675.52,139.63,14,0.0,False,2,2.345,-0.611,Top-Tier VIP Champions
+10021,2,21,2351.76,111.99,15,0.0035,False,2,3.02,-0.526,Top-Tier VIP Champions
+10022,1,22,3201.32,145.51,15,0.0064,True,2,3.323,-0.706,Top-Tier VIP Champions
+10023,4,19,2567.86,135.15,15,0.005,False,2,2.786,-0.197,Top-Tier VIP Champions
+10024,4,13,2654.78,204.21,15,0.0065,False,2,2.5,-0.321,Top-Tier VIP Champions
+10025,2,15,2164.97,144.33,15,0.0,False,2,2.722,-0.665,Top-Tier VIP Champions
+10026,1,25,3446.16,137.85,15,0.0013,True,2,3.454,-0.643,Top-Tier VIP Champions
+10027,2,17,2518.99,148.18,15,0.0,False,2,2.878,-0.584,Top-Tier VIP Champions
+10028,1,27,3484.77,129.07,15,0.0042,True,2,3.52,-0.612,Top-Tier VIP Champions
+10029,1,24,2853.79,118.91,15,0.0072,True,2,3.35,-0.703,Top-Tier VIP Champions
+10030,1,27,3986.74,147.66,15,0.0,True,2,3.571,-0.58,Top-Tier VIP Champions
+10031,1,20,2633.46,131.67,15,0.0016,False,2,3.173,-0.788,Top-Tier VIP Champions
+10032,3,26,4128.14,158.77,15,0.0062,True,2,3.3,-0.119,Top-Tier VIP Champions
+10033,1,12,1675.34,139.61,15,0.0108,False,2,2.6,-1.077,Top-Tier VIP Champions
+10034,2,24,3319.5,138.31,15,0.0014,True,2,3.258,-0.394,Top-Tier VIP Champions
+10035,2,13,1897.99,146.0,15,0.0,False,2,2.56,-0.746,Top-Tier VIP Champions
+10036,1,18,2999.34,166.63,15,0.0,True,2,3.138,-0.793,Top-Tier VIP Champions
+10037,3,14,2445.11,174.65,15,0.0,False,2,2.608,-0.466,Top-Tier VIP Champions
+10038,1,21,3708.41,176.59,15,0.0,True,2,3.341,-0.687,Top-Tier VIP Champions
+10039,1,26,2968.53,114.17,15,0.0114,True,2,3.429,-0.665,Top-Tier VIP Champions
+10040,2,18,2215.34,123.07,15,0.0018,False,2,2.875,-0.595,Top-Tier VIP Champions
+10041,4,16,2904.38,181.52,15,0.0,True,2,2.696,-0.227,Top-Tier VIP Champions
+10042,1,19,2927.84,154.1,15,0.0,True,2,3.172,-0.78,Top-Tier VIP Champions
+10043,8,20,3148.7,157.44,15,0.0,True,2,2.689,0.266,Top-Tier VIP Champions
+10044,3,18,2240.48,124.47,15,0.0,False,2,2.774,-0.399,Top-Tier VIP Champions
+10045,2,25,3499.94,140.0,15,0.0051,True,2,3.311,-0.367,Top-Tier VIP Champions
+10046,6,24,3851.0,160.46,15,0.0013,True,2,3.003,0.211,Top-Tier VIP Champions
+10047,4,17,2249.99,132.35,15,0.002,False,2,2.648,-0.268,Top-Tier VIP Champions
+10048,1,19,1856.85,97.73,15,0.0019,False,2,3.0,-0.891,Top-Tier VIP Champions
+10049,6,27,4068.53,150.69,15,0.0023,True,2,3.119,0.267,Top-Tier VIP Champions
+10050,26,10,700.55,70.05,13,0.0,False,0,1.175,0.397,Loyal Repeat Regulars
+10051,18,5,398.06,79.61,9,0.0,False,0,0.582,-0.202,Loyal Repeat Regulars
+10052,26,8,573.85,71.73,13,0.0,False,0,0.931,0.274,Loyal Repeat Regulars
+10053,21,12,767.14,63.93,13,0.0,False,0,1.425,0.344,Loyal Repeat Regulars
+10054,10,11,972.68,88.43,14,0.0,False,0,1.701,-0.094,Loyal Repeat Regulars
+10055,18,13,1609.37,123.8,14,0.0,False,0,1.821,0.453,Loyal Repeat Regulars
+10056,17,9,750.26,83.36,13,0.0,False,0,1.27,0.106,Loyal Repeat Regulars
+10057,21,10,557.67,55.77,14,0.0,False,0,1.164,0.204,Loyal Repeat Regulars
+10058,16,8,863.03,107.88,14,0.0,False,0,1.255,0.062,Loyal Repeat Regulars
+10059,22,7,266.42,38.06,11,0.0,False,0,0.602,-0.065,Loyal Repeat Regulars
+10060,21,11,663.73,60.34,12,0.0,False,0,1.303,0.279,Loyal Repeat Regulars
+10061,22,5,874.86,174.97,10,0.0,False,0,0.809,0.118,Loyal Repeat Regulars
+10062,19,10,1057.71,105.77,14,0.0,False,0,1.441,0.296,Loyal Repeat Regulars
+10063,19,9,1132.38,125.82,13,0.0,False,0,1.386,0.277,Loyal Repeat Regulars
+10064,18,12,1227.46,102.29,13,0.0,False,0,1.656,0.36,Loyal Repeat Regulars
+10065,18,9,454.35,50.48,11,0.0,False,0,1.06,0.02,Loyal Repeat Regulars
+10066,17,9,877.25,97.47,14,0.0,False,0,1.329,0.144,Loyal Repeat Regulars
+10067,16,7,1018.64,145.52,12,0.0,False,0,1.219,0.059,Loyal Repeat Regulars
+10068,13,12,989.24,82.44,12,0.0,False,0,1.686,0.102,Loyal Repeat Regulars
+10069,89,6,577.45,96.24,13,0.0,False,3,0.281,0.99,At-Risk / Lapsed Customers
+10070,18,5,380.02,76.0,10,0.0,False,0,0.564,-0.214,Loyal Repeat Regulars
+10071,35,7,705.85,100.84,13,0.0,False,0,0.805,0.473,Loyal Repeat Regulars
+10072,13,8,667.58,83.45,13,0.0,False,0,1.229,-0.131,Loyal Repeat Regulars
+10073,11,5,517.21,103.44,10,0.0,False,0,0.849,-0.447,Loyal Repeat Regulars
+10074,24,10,1182.54,118.25,12,0.0,False,0,1.401,0.473,Loyal Repeat Regulars
+10075,35,8,714.59,89.32,12,0.0,False,0,0.908,0.52,Loyal Repeat Regulars
+10076,23,9,1168.43,129.83,13,0.0,False,0,1.331,0.407,Loyal Repeat Regulars
+10077,21,6,469.78,78.3,10,0.0,False,0,0.72,-0.006,Loyal Repeat Regulars
+10078,25,11,804.3,73.12,13,0.0,False,0,1.314,0.438,Loyal Repeat Regulars
+10079,11,11,1200.11,109.1,13,0.0,False,0,1.749,0.016,Loyal Repeat Regulars
+10080,17,13,939.42,72.26,14,0.0,False,0,1.637,0.286,Loyal Repeat Regulars
+10081,43,5,587.16,117.43,8,0.0,False,0,0.42,0.456,Loyal Repeat Regulars
+10082,12,10,717.87,71.79,14,0.0,False,0,1.452,-0.088,Loyal Repeat Regulars
+10083,21,6,757.24,126.21,10,0.0,False,0,0.9,0.11,Loyal Repeat Regulars
+10084,28,8,1025.5,128.19,13,0.0,False,0,1.124,0.463,Loyal Repeat Regulars
+10085,20,13,911.87,70.14,14,0.0,False,0,1.569,0.382,Loyal Repeat Regulars
+10086,23,9,598.91,66.55,14,0.0,False,0,1.079,0.244,Loyal Repeat Regulars
+10087,10,13,1549.36,119.18,14,0.0,False,0,2.007,0.077,Loyal Repeat Regulars
+10088,61,5,417.49,83.5,9,0.0,False,3,0.166,0.604,At-Risk / Lapsed Customers
+10089,13,5,626.8,125.36,10,0.0,False,0,0.865,-0.297,Loyal Repeat Regulars
+10090,13,9,1092.98,121.44,13,0.0,False,0,1.504,0.029,Loyal Repeat Regulars
+10091,27,11,780.87,70.99,14,0.0,False,0,1.276,0.48,Loyal Repeat Regulars
+10092,17,7,685.8,97.97,13,0.0,False,0,1.048,0.001,Loyal Repeat Regulars
+10093,74,7,718.82,102.69,10,0.0,False,0,0.543,0.971,Loyal Repeat Regulars
+10094,13,7,764.23,109.18,14,0.0,False,0,1.181,-0.142,Loyal Repeat Regulars
+10095,20,7,485.68,69.38,12,0.0,False,0,0.862,0.02,Loyal Repeat Regulars
+10096,18,12,1286.75,107.23,15,0.0,False,0,1.674,0.371,Loyal Repeat Regulars
+10097,20,13,973.95,74.92,14,0.0,False,0,1.594,0.398,Loyal Repeat Regulars
+10098,21,8,1007.7,125.96,11,0.0,False,0,1.219,0.273,Loyal Repeat Regulars
+10099,16,11,1109.52,100.87,13,0.0,False,0,1.591,0.231,Loyal Repeat Regulars
+10100,10,11,1129.03,102.64,14,0.0,False,0,1.758,-0.058,Loyal Repeat Regulars
+10101,17,6,254.81,42.47,11,0.0,False,0,0.563,-0.29,Loyal Repeat Regulars
+10102,29,6,581.81,96.97,12,0.0,False,0,0.687,0.254,Loyal Repeat Regulars
+10103,45,5,259.58,51.92,10,0.0,False,0,0.096,0.288,Loyal Repeat Regulars
+10104,11,7,646.32,92.33,10,0.0,False,0,1.175,-0.286,Loyal Repeat Regulars
+10105,20,10,887.94,88.79,12,0.0,False,0,1.357,0.286,Loyal Repeat Regulars
+10106,12,9,912.4,101.38,12,0.0,False,0,1.463,-0.065,Loyal Repeat Regulars
+10107,11,9,604.63,67.18,11,0.0,False,0,1.337,-0.219,Loyal Repeat Regulars
+10108,30,5,352.45,70.49,10,0.0,False,0,0.356,0.097,Loyal Repeat Regulars
+10109,19,8,728.92,91.12,14,0.0,False,0,1.132,0.13,Loyal Repeat Regulars
+10110,21,13,960.97,73.92,14,0.0,False,0,1.572,0.426,Loyal Repeat Regulars
+10111,24,13,1134.75,87.29,14,0.0,False,0,1.588,0.553,Loyal Repeat Regulars
+10112,34,6,396.45,66.08,9,0.0,False,0,0.485,0.264,Loyal Repeat Regulars
+10113,19,10,729.03,72.9,15,0.0,False,0,1.3,0.205,Loyal Repeat Regulars
+10114,12,9,890.26,98.92,11,0.0,False,0,1.454,-0.071,Loyal Repeat Regulars
+10115,40,8,1189.5,148.69,12,0.0,False,0,1.053,0.732,Loyal Repeat Regulars
+10116,21,5,520.02,104.0,9,0.0,False,0,0.629,-0.039,Loyal Repeat Regulars
+10117,18,8,446.22,55.78,12,0.0,False,0,0.965,-0.024,Loyal Repeat Regulars
+10118,11,9,922.38,102.49,14,0.0,False,0,1.496,-0.116,Loyal Repeat Regulars
+10119,45,5,209.14,41.83,10,0.0,False,3,0.015,0.235,At-Risk / Lapsed Customers
+10120,10,5,458.9,91.78,9,0.0,False,0,0.836,-0.535,Loyal Repeat Regulars
+10121,19,13,1249.34,96.1,15,0.0,False,0,1.706,0.426,Loyal Repeat Regulars
+10122,10,10,813.02,81.3,13,0.0,False,0,1.561,-0.17,Loyal Repeat Regulars
+10123,23,6,497.05,82.84,11,0.0,False,0,0.709,0.066,Loyal Repeat Regulars
+10124,16,10,670.3,67.03,14,0.0,False,0,1.328,0.075,Loyal Repeat Regulars
+10125,24,8,748.53,93.57,13,0.0,False,0,1.06,0.287,Loyal Repeat Regulars
+10126,17,8,621.95,77.74,10,0.0,False,0,1.11,0.021,Loyal Repeat Regulars
+10127,26,6,409.91,68.32,13,0.0,False,0,0.593,0.098,Loyal Repeat Regulars
+10128,26,10,543.35,54.34,11,0.0,False,0,1.079,0.335,Loyal Repeat Regulars
+10129,10,9,785.04,87.23,13,0.0,False,0,1.467,-0.214,Loyal Repeat Regulars
+10130,10,13,1094.19,84.17,13,0.0,False,0,1.875,-0.008,Loyal Repeat Regulars
+10131,44,8,654.88,81.86,14,0.0,False,0,0.794,0.649,Loyal Repeat Regulars
+10132,20,13,1088.28,83.71,14,0.0,False,0,1.636,0.425,Loyal Repeat Regulars
+10133,11,12,853.31,71.11,13,0.0,False,0,1.687,-0.038,Loyal Repeat Regulars
+10134,14,9,908.76,100.97,14,0.0,False,0,1.409,0.03,Loyal Repeat Regulars
+10135,41,10,499.16,49.92,12,0.0,False,0,0.885,0.611,Loyal Repeat Regulars
+10136,10,10,605.59,60.56,12,0.0,False,0,1.449,-0.242,Loyal Repeat Regulars
+10137,16,7,729.61,104.23,11,0.0,False,0,1.093,-0.023,Loyal Repeat Regulars
+10138,15,11,1303.5,118.5,12,0.0,False,0,1.675,0.229,Loyal Repeat Regulars
+10139,13,9,619.55,68.84,14,0.0,False,0,1.289,-0.11,Loyal Repeat Regulars
+10140,34,7,696.71,99.53,10,0.0,False,0,0.81,0.451,Loyal Repeat Regulars
+10141,17,11,788.32,71.67,11,0.0,False,0,1.441,0.186,Loyal Repeat Regulars
+10142,24,12,642.93,53.58,12,0.0,False,0,1.311,0.387,Loyal Repeat Regulars
+10143,11,12,1500.48,125.04,12,0.0,False,0,1.9,0.1,Loyal Repeat Regulars
+10144,13,8,693.72,86.72,11,0.0,False,0,1.244,-0.121,Loyal Repeat Regulars
+10145,15,10,1241.06,124.11,14,0.0,False,0,1.583,0.185,Loyal Repeat Regulars
+10146,21,7,1023.34,146.19,12,0.0,False,0,1.126,0.233,Loyal Repeat Regulars
+10147,15,5,274.56,54.91,8,0.0,False,0,0.505,-0.408,Loyal Repeat Regulars
+10148,72,6,334.7,55.78,11,0.0,False,3,0.152,0.717,At-Risk / Lapsed Customers
+10149,18,13,1102.93,84.84,14,0.0,False,0,1.678,0.361,Loyal Repeat Regulars
+10150,20,9,916.54,101.84,15,0.0,False,0,1.289,0.258,Loyal Repeat Regulars
+10151,10,13,1081.09,83.16,14,0.0,False,0,1.871,-0.011,Loyal Repeat Regulars
+10152,26,13,1016.46,78.19,15,0.0,False,0,1.518,0.577,Loyal Repeat Regulars
+10153,38,10,963.87,96.39,14,0.0,False,0,1.161,0.722,Loyal Repeat Regulars
+10154,17,7,730.25,104.32,12,0.0,False,0,1.072,0.016,Loyal Repeat Regulars
+10155,21,9,886.39,98.49,12,0.0,False,0,1.259,0.281,Loyal Repeat Regulars
+10156,18,5,373.06,74.61,9,0.0,False,0,0.557,-0.218,Loyal Repeat Regulars
+10157,13,8,760.91,95.11,14,0.0,False,0,1.279,-0.099,Loyal Repeat Regulars
+10158,18,5,570.82,114.16,11,0.0,False,0,0.718,-0.115,Loyal Repeat Regulars
+10159,10,12,1047.85,87.32,14,0.0,False,0,1.797,-0.046,Loyal Repeat Regulars
+10160,11,9,738.51,82.06,13,0.0,False,0,1.412,-0.17,Loyal Repeat Regulars
+10161,17,13,781.39,60.11,14,0.0,False,0,1.567,0.241,Loyal Repeat Regulars
+10162,20,7,841.78,120.25,12,0.0,False,0,1.069,0.154,Loyal Repeat Regulars
+10163,11,7,598.78,85.54,12,0.0,False,0,1.146,-0.305,Loyal Repeat Regulars
+10164,68,5,342.48,68.5,12,0.0,False,3,0.052,0.627,At-Risk / Lapsed Customers
+10165,17,6,1005.92,167.65,11,0.0,False,0,1.081,0.044,Loyal Repeat Regulars
+10166,27,5,271.18,54.24,8,0.0,False,0,0.295,-0.035,Loyal Repeat Regulars
+10167,45,6,606.14,101.02,9,0.0,False,0,0.545,0.551,Loyal Repeat Regulars
+10168,21,8,983.67,122.96,14,0.0,False,0,1.21,0.267,Loyal Repeat Regulars
+10169,17,6,507.41,84.57,12,0.0,False,0,0.823,-0.122,Loyal Repeat Regulars
+10170,14,13,1285.91,98.92,15,0.0,False,0,1.822,0.24,Loyal Repeat Regulars
+10171,17,13,1097.61,84.43,13,0.0,False,0,1.696,0.324,Loyal Repeat Regulars
+10172,10,10,1157.68,115.77,13,0.0,False,0,1.694,-0.084,Loyal Repeat Regulars
+10173,12,11,844.06,76.73,14,0.0,False,0,1.586,-0.016,Loyal Repeat Regulars
+10174,27,12,1043.46,86.96,14,0.0,False,0,1.452,0.581,Loyal Repeat Regulars
+10175,28,11,1193.77,108.52,15,0.0,False,0,1.423,0.607,Loyal Repeat Regulars
+10176,13,13,740.95,57.0,13,0.0,False,0,1.639,0.059,Loyal Repeat Regulars
+10177,18,5,346.77,69.35,11,0.0,False,0,0.53,-0.236,Loyal Repeat Regulars
+10178,19,9,1129.63,125.51,12,0.0,False,0,1.386,0.276,Loyal Repeat Regulars
+10179,11,5,563.55,112.71,11,0.0,False,0,0.882,-0.427,Loyal Repeat Regulars
+10180,14,5,645.85,129.17,13,0.0,False,0,0.851,-0.243,Loyal Repeat Regulars
+10181,12,10,953.66,95.37,14,0.0,False,0,1.56,-0.019,Loyal Repeat Regulars
+10182,39,5,421.96,84.39,8,0.0,False,0,0.331,0.312,Loyal Repeat Regulars
+10183,38,8,711.25,88.91,13,0.0,False,0,0.877,0.573,Loyal Repeat Regulars
+10184,63,6,631.99,105.33,10,0.0,False,0,0.44,0.783,Loyal Repeat Regulars
+10185,11,7,679.88,97.13,12,0.0,False,0,1.194,-0.274,Loyal Repeat Regulars
+10186,14,12,1147.09,95.59,14,0.0,False,0,1.717,0.184,Loyal Repeat Regulars
+10187,34,13,1174.4,90.34,15,0.0,False,0,1.477,0.787,Loyal Repeat Regulars
+10188,19,11,815.76,74.16,13,0.0,False,0,1.416,0.265,Loyal Repeat Regulars
+10189,24,10,461.22,46.12,11,0.0,False,0,1.045,0.243,Loyal Repeat Regulars
+10190,16,11,1075.13,97.74,14,0.0,False,0,1.579,0.223,Loyal Repeat Regulars
+10191,13,9,564.25,62.69,12,0.0,False,0,1.254,-0.132,Loyal Repeat Regulars
+10192,19,10,1032.54,103.25,13,0.0,False,0,1.432,0.29,Loyal Repeat Regulars
+10193,18,12,904.11,75.34,15,0.0,False,0,1.54,0.285,Loyal Repeat Regulars
+10194,55,6,388.7,64.78,11,0.0,False,0,0.306,0.575,Loyal Repeat Regulars
+10195,27,6,820.04,136.67,11,0.0,False,0,0.842,0.291,Loyal Repeat Regulars
+10196,13,12,1097.99,91.5,15,0.0,False,0,1.726,0.127,Loyal Repeat Regulars
+10197,13,13,1379.65,106.13,15,0.0,False,0,1.874,0.211,Loyal Repeat Regulars
+10198,10,10,594.36,59.44,13,0.0,False,0,1.442,-0.246,Loyal Repeat Regulars
+10199,12,7,536.31,76.62,12,0.0,False,0,1.075,-0.278,Loyal Repeat Regulars
+10200,222,2,44.14,22.07,4,0.0,False,3,-1.728,0.662,At-Risk / Lapsed Customers
+10201,171,5,325.98,65.2,6,0.0,False,3,-0.302,1.229,At-Risk / Lapsed Customers
+10202,218,3,184.87,61.62,4,0.0,False,3,-0.945,1.102,At-Risk / Lapsed Customers
+10203,192,4,287.95,71.99,6,0.0,False,3,-0.544,1.208,At-Risk / Lapsed Customers
+10204,181,2,59.07,29.54,3,0.0,False,3,-1.545,0.595,At-Risk / Lapsed Customers
+10205,172,3,207.05,69.02,5,0.0,False,3,-0.815,0.972,At-Risk / Lapsed Customers
+10206,166,4,260.82,65.2,6,0.0,False,3,-0.528,1.087,At-Risk / Lapsed Customers
+10207,170,4,157.09,39.27,6,0.0,False,3,-0.728,0.98,At-Risk / Lapsed Customers
+10208,251,2,33.66,16.83,2,0.0,False,3,-1.873,0.68,At-Risk / Lapsed Customers
+10209,185,3,290.3,96.77,5,0.0,False,3,-0.715,1.102,At-Risk / Lapsed Customers
+10210,184,4,304.91,76.23,7,0.0,False,3,-0.507,1.194,At-Risk / Lapsed Customers
+10211,190,5,578.98,115.8,10,0.0,False,3,-0.124,1.439,At-Risk / Lapsed Customers
+10212,272,2,90.26,45.13,4,0.0,False,3,-1.536,0.97,At-Risk / Lapsed Customers
+10213,166,3,175.55,58.52,5,0.0,False,3,-0.865,0.908,At-Risk / Lapsed Customers
+10214,208,3,152.41,50.8,6,0.0,False,3,-1.0,1.024,At-Risk / Lapsed Customers
+10215,188,5,168.12,33.62,6,0.0,False,3,-0.586,1.131,At-Risk / Lapsed Customers
+10216,180,5,335.43,67.09,6,0.0,False,3,-0.31,1.27,At-Risk / Lapsed Customers
+10217,215,4,217.21,54.3,7,0.0,False,3,-0.692,1.215,At-Risk / Lapsed Customers
+10218,227,2,136.82,68.41,5,0.0,False,3,-1.314,0.949,At-Risk / Lapsed Customers
+10219,171,5,220.7,44.14,7,0.0,False,3,-0.449,1.134,At-Risk / Lapsed Customers
+10220,221,2,120.38,60.19,4,0.0,False,3,-1.352,0.9,At-Risk / Lapsed Customers
+10221,166,3,188.49,62.83,6,0.0,False,3,-0.838,0.925,At-Risk / Lapsed Customers
+10222,172,5,241.34,48.27,10,0.0,False,3,-0.417,1.16,At-Risk / Lapsed Customers
+10223,162,5,207.28,41.46,7,0.0,False,3,-0.453,1.083,At-Risk / Lapsed Customers
+10224,337,2,51.58,25.79,3,0.0,False,3,-1.823,0.979,At-Risk / Lapsed Customers
+10225,176,2,169.57,84.78,4,0.0,False,3,-1.14,0.831,At-Risk / Lapsed Customers
+10226,204,2,152.18,76.09,5,0.0,False,3,-1.235,0.904,At-Risk / Lapsed Customers
+10227,244,3,111.56,37.19,3,0.0,False,3,-1.175,1.055,At-Risk / Lapsed Customers
+10228,257,3,146.03,48.68,4,0.0,False,3,-1.093,1.155,At-Risk / Lapsed Customers
+10229,168,2,10.83,5.42,2,0.0,False,1,-2.133,0.149,Recent Starters & Promising
+10230,189,5,412.74,82.55,8,0.0,False,3,-0.249,1.353,At-Risk / Lapsed Customers
+10231,275,3,127.46,42.49,6,0.0,False,3,-1.169,1.168,At-Risk / Lapsed Customers
+10232,164,4,183.08,45.77,7,0.0,False,3,-0.657,0.993,At-Risk / Lapsed Customers
+10233,188,3,94.48,31.49,3,0.0,False,3,-1.142,0.841,At-Risk / Lapsed Customers
+10234,195,5,412.5,82.5,9,0.0,False,3,-0.261,1.374,At-Risk / Lapsed Customers
+10235,182,2,77.4,38.7,3,0.0,False,3,-1.447,0.664,At-Risk / Lapsed Customers
+10236,267,3,164.22,54.74,6,0.0,False,3,-1.063,1.209,At-Risk / Lapsed Customers
+10237,204,2,71.55,35.78,4,0.0,False,3,-1.518,0.721,At-Risk / Lapsed Customers
+10238,167,2,106.5,53.25,5,0.0,False,3,-1.296,0.684,At-Risk / Lapsed Customers
+10239,163,4,219.24,54.81,7,0.0,False,3,-0.587,1.033,At-Risk / Lapsed Customers
+10240,162,3,199.56,66.52,5,0.0,False,3,-0.807,0.923,At-Risk / Lapsed Customers
+10241,160,2,66.95,33.48,3,0.0,False,3,-1.454,0.543,At-Risk / Lapsed Customers
+10242,203,4,435.63,108.91,8,0.0,False,3,-0.408,1.346,At-Risk / Lapsed Customers
+10243,216,3,105.2,35.07,3,0.0,False,3,-1.153,0.96,At-Risk / Lapsed Customers
+10244,335,2,23.23,11.62,2,0.0,False,3,-2.114,0.786,At-Risk / Lapsed Customers
+10245,283,3,147.23,49.08,4,0.0,False,3,-1.125,1.222,At-Risk / Lapsed Customers
+10246,171,4,141.98,35.5,6,0.0,False,3,-0.768,0.959,At-Risk / Lapsed Customers
+10247,231,4,198.74,49.68,7,0.0,False,3,-0.751,1.242,At-Risk / Lapsed Customers
+10248,184,3,56.58,18.86,5,0.0,False,3,-1.326,0.703,At-Risk / Lapsed Customers
+10249,243,2,85.07,42.54,6,0.0,False,3,-1.517,0.88,At-Risk / Lapsed Customers
+10250,181,3,152.23,50.74,5,0.0,False,3,-0.95,0.931,At-Risk / Lapsed Customers
+10251,197,5,255.6,51.12,6,0.0,False,3,-0.445,1.264,At-Risk / Lapsed Customers
+10252,166,4,89.97,22.49,5,0.0,False,3,-0.928,0.829,At-Risk / Lapsed Customers
+10253,191,5,92.89,18.58,5,0.0,False,3,-0.814,0.998,At-Risk / Lapsed Customers
+10254,169,4,123.23,30.81,3,0.0,False,3,-0.817,0.917,At-Risk / Lapsed Customers
+10255,169,3,193.97,64.66,6,0.0,False,3,-0.833,0.944,At-Risk / Lapsed Customers
+10256,160,5,254.71,50.94,6,0.0,False,3,-0.371,1.125,At-Risk / Lapsed Customers
+10257,180,3,159.78,53.26,6,0.0,False,3,-0.929,0.939,At-Risk / Lapsed Customers
+10258,178,3,148.77,49.59,6,0.0,False,3,-0.952,0.914,At-Risk / Lapsed Customers
+10259,166,5,286.22,57.24,7,0.0,False,3,-0.34,1.177,At-Risk / Lapsed Customers
+10260,275,2,11.52,5.76,2,0.0,False,3,-2.291,0.492,At-Risk / Lapsed Customers
+10261,224,2,186.9,93.45,3,0.0,False,3,-1.192,1.016,At-Risk / Lapsed Customers
+10262,207,2,44.8,22.4,3,0.0,False,3,-1.697,0.619,At-Risk / Lapsed Customers
+10263,166,5,372.5,74.5,7,0.0,False,3,-0.241,1.242,At-Risk / Lapsed Customers
+10264,198,3,88.5,29.5,5,0.0,False,3,-1.186,0.86,At-Risk / Lapsed Customers
+10265,213,3,117.87,39.29,4,0.0,False,3,-1.105,0.978,At-Risk / Lapsed Customers
+10266,174,5,109.44,21.89,5,0.0,False,3,-0.719,0.976,At-Risk / Lapsed Customers
+10267,163,5,189.7,37.94,10,0.0,False,3,-0.488,1.065,At-Risk / Lapsed Customers
+10268,215,2,138.72,69.36,4,0.0,False,3,-1.289,0.916,At-Risk / Lapsed Customers
+10269,203,3,215.58,71.86,3,0.0,False,3,-0.861,1.092,At-Risk / Lapsed Customers
+10270,328,2,18.03,9.02,2,0.0,False,3,-2.197,0.713,At-Risk / Lapsed Customers
+10271,175,2,27.29,13.64,1,0.0,False,3,-1.818,0.389,At-Risk / Lapsed Customers
+10272,175,2,248.62,124.31,5,0.0,False,3,-0.994,0.92,At-Risk / Lapsed Customers
+10273,245,4,122.28,30.57,6,0.0,False,3,-0.955,1.163,At-Risk / Lapsed Customers
+10274,201,3,180.66,60.22,6,0.0,False,3,-0.924,1.043,At-Risk / Lapsed Customers
+10275,269,4,336.91,84.23,6,0.0,False,3,-0.608,1.472,At-Risk / Lapsed Customers
+10276,227,2,108.17,54.09,3,0.0,False,3,-1.402,0.893,At-Risk / Lapsed Customers
+10277,223,5,124.2,24.84,5,0.0,False,3,-0.762,1.172,At-Risk / Lapsed Customers
+10278,171,4,50.23,12.56,4,0.0,False,3,-1.156,0.709,At-Risk / Lapsed Customers
+10279,166,4,174.97,43.74,5,0.0,False,3,-0.678,0.99,At-Risk / Lapsed Customers
+10280,205,5,192.52,38.5,5,0.0,False,3,-0.567,1.222,At-Risk / Lapsed Customers
+10281,198,2,69.44,34.72,4,0.0,False,3,-1.518,0.694,At-Risk / Lapsed Customers
+10282,177,5,220.46,44.09,9,0.0,False,3,-0.462,1.157,At-Risk / Lapsed Customers
+10283,171,4,130.49,32.62,5,0.0,False,3,-0.8,0.939,At-Risk / Lapsed Customers
+10284,183,5,378.87,75.77,5,0.0,False,3,-0.27,1.311,At-Risk / Lapsed Customers
+10285,186,5,185.86,37.17,7,0.0,False,3,-0.544,1.149,At-Risk / Lapsed Customers
+10286,177,4,154.4,38.6,5,0.0,False,3,-0.749,1.003,At-Risk / Lapsed Customers
+10287,175,4,321.0,80.25,7,0.0,False,3,-0.469,1.173,At-Risk / Lapsed Customers
+10288,175,5,532.12,106.42,7,0.0,False,3,-0.125,1.364,At-Risk / Lapsed Customers
+10289,233,4,352.49,88.12,6,0.0,False,3,-0.538,1.387,At-Risk / Lapsed Customers
+10290,173,3,153.76,51.25,5,0.0,False,3,-0.929,0.903,At-Risk / Lapsed Customers
+10291,176,5,129.37,25.87,6,0.0,False,3,-0.66,1.024,At-Risk / Lapsed Customers
+10292,175,4,533.6,133.4,8,0.0,False,3,-0.277,1.296,At-Risk / Lapsed Customers
+10293,187,5,285.77,57.15,8,0.0,False,3,-0.384,1.257,At-Risk / Lapsed Customers
+10294,225,4,225.54,56.39,8,0.0,False,3,-0.694,1.255,At-Risk / Lapsed Customers
+10295,189,3,59.1,19.7,5,0.0,False,3,-1.319,0.732,At-Risk / Lapsed Customers
+10296,237,4,91.47,22.87,8,0.0,False,3,-1.052,1.071,At-Risk / Lapsed Customers
+10297,239,3,306.89,102.3,4,0.0,False,3,-0.787,1.287,At-Risk / Lapsed Customers
+10298,178,5,151.59,30.32,6,0.0,False,3,-0.605,1.07,At-Risk / Lapsed Customers
+10299,238,5,482.28,96.46,8,0.0,False,3,-0.275,1.545,At-Risk / Lapsed Customers
+10300,174,5,294.7,58.94,8,0.0,False,3,-0.346,1.216,At-Risk / Lapsed Customers
+10301,172,2,383.38,191.69,4,0.0,False,3,-0.825,1.014,At-Risk / Lapsed Customers
+10302,209,2,77.6,38.8,3,0.0,False,3,-1.496,0.757,At-Risk / Lapsed Customers
+10303,189,2,138.32,69.16,3,0.0,False,3,-1.243,0.83,At-Risk / Lapsed Customers
+10304,221,2,26.64,13.32,3,0.0,False,3,-1.912,0.539,At-Risk / Lapsed Customers
+10305,280,2,133.51,66.76,4,0.0,False,3,-1.4,1.084,At-Risk / Lapsed Customers
+10306,167,3,165.0,55.0,6,0.0,False,3,-0.89,0.897,At-Risk / Lapsed Customers
+10307,232,2,93.97,46.98,4,0.0,False,3,-1.463,0.873,At-Risk / Lapsed Customers
+10308,190,2,73.85,36.92,4,0.0,False,3,-1.48,0.681,At-Risk / Lapsed Customers
+10309,165,3,120.86,40.29,5,0.0,False,3,-1.003,0.813,At-Risk / Lapsed Customers
+10310,194,5,346.22,69.24,6,0.0,False,3,-0.325,1.328,At-Risk / Lapsed Customers
+10311,213,2,35.22,17.61,2,0.0,False,3,-1.796,0.581,At-Risk / Lapsed Customers
+10312,170,3,194.65,64.88,4,0.0,False,3,-0.834,0.949,At-Risk / Lapsed Customers
+10313,163,3,302.47,100.82,4,0.0,False,3,-0.653,1.028,At-Risk / Lapsed Customers
+10314,233,3,98.96,32.99,4,0.0,False,3,-1.203,0.996,At-Risk / Lapsed Customers
+10315,165,5,225.79,45.16,6,0.0,False,3,-0.427,1.116,At-Risk / Lapsed Customers
+10316,192,3,368.35,122.78,6,0.0,False,3,-0.638,1.185,At-Risk / Lapsed Customers
+10317,196,3,134.54,44.85,3,0.0,False,3,-1.025,0.954,At-Risk / Lapsed Customers
+10318,184,2,242.67,121.34,4,0.0,False,3,-1.022,0.948,At-Risk / Lapsed Customers
+10319,175,3,83.18,27.73,6,0.0,False,3,-1.164,0.762,At-Risk / Lapsed Customers
+10320,170,5,282.42,56.48,6,0.0,False,3,-0.354,1.19,At-Risk / Lapsed Customers
+10321,183,3,123.43,41.14,5,0.0,False,3,-1.032,0.888,At-Risk / Lapsed Customers
+10322,243,2,186.23,93.12,5,0.0,False,3,-1.223,1.07,At-Risk / Lapsed Customers
+10323,183,2,176.88,88.44,2,0.0,False,3,-1.139,0.868,At-Risk / Lapsed Customers
+10324,202,3,137.31,45.77,5,0.0,False,3,-1.028,0.979,At-Risk / Lapsed Customers
+10325,36,2,91.15,45.58,2,0.0,False,1,-0.799,-0.37,Recent Starters & Promising
+10326,38,2,49.34,24.67,3,0.0,False,1,-1.047,-0.483,Recent Starters & Promising
+10327,85,1,9.03,9.03,1,0.0,False,1,-2.288,-0.496,Recent Starters & Promising
+10328,84,1,16.92,16.92,1,0.0,False,1,-2.064,-0.362,Recent Starters & Promising
+10329,26,1,29.35,29.35,2,0.0,False,1,-1.444,-1.004,Recent Starters & Promising
+10330,12,1,5.41,5.41,1,0.0,False,1,-1.764,-1.875,Recent Starters & Promising
+10331,82,2,99.1,49.55,3,0.0,False,3,-1.064,0.192,At-Risk / Lapsed Customers
+10332,6,2,132.55,66.27,2,0.0,False,1,-0.048,-1.399,Recent Starters & Promising
+10333,43,2,49.16,24.58,2,0.0,False,1,-1.093,-0.402,Recent Starters & Promising
+10334,19,1,39.88,39.88,2,0.0,False,1,-1.221,-1.133,Recent Starters & Promising
+10335,21,2,32.45,16.23,3,0.0,False,1,-0.992,-0.967,Recent Starters & Promising
+10336,32,2,10.88,5.44,2,0.0,False,1,-1.532,-0.947,Recent Starters & Promising
+10337,6,1,6.23,6.23,2,0.0,False,1,-1.491,-2.261,Recent Starters & Promising
+10338,26,2,32.09,16.05,3,0.0,False,1,-1.071,-0.832,Recent Starters & Promising
+10339,22,2,183.15,91.58,3,0.0,False,1,-0.363,-0.521,Recent Starters & Promising
+10340,79,1,5.95,5.95,2,0.0,False,1,-2.4,-0.634,Recent Starters & Promising
+10341,48,2,201.19,100.6,4,0.0,False,1,-0.605,0.01,Recent Starters & Promising
+10342,18,1,4.53,4.53,1,0.0,False,1,-1.959,-1.656,Recent Starters & Promising
+10343,11,1,180.4,180.4,1,0.0,False,1,-0.47,-1.113,Recent Starters & Promising
+10344,30,2,281.96,140.98,4,0.0,False,1,-0.31,-0.216,Recent Starters & Promising
+10345,53,2,56.53,28.26,3,0.0,False,1,-1.116,-0.231,Recent Starters & Promising
+10346,9,2,262.53,131.26,2,0.0,False,1,0.079,-0.993,Recent Starters & Promising
+10347,18,2,9.36,4.68,2,0.0,False,1,-1.381,-1.351,Recent Starters & Promising
+10348,11,1,47.91,47.91,2,0.0,False,1,-0.966,-1.432,Recent Starters & Promising
+10349,6,2,52.53,26.26,3,0.0,False,1,-0.394,-1.622,Recent Starters & Promising
+10350,10,1,11.69,11.69,2,0.0,False,1,-1.444,-1.82,Recent Starters & Promising
+10351,11,2,23.6,11.8,2,0.0,False,1,-0.885,-1.449,Recent Starters & Promising
+10352,33,2,67.55,33.78,3,0.0,False,1,-0.88,-0.499,Recent Starters & Promising
+10353,7,2,189.12,94.56,2,0.0,False,1,0.037,-1.223,Recent Starters & Promising
+10354,56,2,52.65,26.33,2,0.0,False,1,-1.162,-0.212,Recent Starters & Promising
+10355,12,1,107.65,107.65,2,0.0,False,1,-0.693,-1.184,Recent Starters & Promising
+10356,59,2,84.27,42.14,4,0.0,False,1,-1.006,-0.065,Recent Starters & Promising
+10357,19,1,2.43,2.43,1,0.0,False,1,-2.158,-1.738,Recent Starters & Promising
+10358,19,2,97.8,48.9,4,0.0,False,1,-0.547,-0.767,Recent Starters & Promising
+10359,16,2,11.75,5.88,2,0.0,False,1,-1.262,-1.376,Recent Starters & Promising
+10360,67,2,45.38,22.69,2,0.0,False,1,-1.282,-0.129,Recent Starters & Promising
+10361,85,1,20.35,20.35,1,0.0,False,1,-2.002,-0.312,Recent Starters & Promising
+10362,69,1,77.33,77.33,2,0.0,False,1,-1.435,-0.133,Recent Starters & Promising
+10363,61,1,38.34,38.34,1,0.0,False,1,-1.651,-0.382,Recent Starters & Promising
+10364,35,2,128.52,64.26,2,0.0,False,1,-0.66,-0.306,Recent Starters & Promising
+10365,33,1,59.96,59.96,1,0.0,False,1,-1.264,-0.679,Recent Starters & Promising
+10366,14,1,27.99,27.99,1,0.0,False,1,-1.245,-1.41,Recent Starters & Promising
+10367,13,1,3.24,3.24,1,0.0,False,1,-1.947,-1.926,Recent Starters & Promising
+10368,10,2,164.04,82.02,3,0.0,False,1,-0.133,-1.043,Recent Starters & Promising
+10369,5,2,87.86,43.93,4,0.0,False,1,-0.145,-1.601,Recent Starters & Promising
+10370,37,1,39.49,39.49,2,0.0,False,1,-1.46,-0.704,Recent Starters & Promising
+10371,83,1,13.44,13.44,1,0.0,False,1,-2.141,-0.423,Recent Starters & Promising
+10372,14,1,16.77,16.77,2,0.0,False,1,-1.431,-1.53,Recent Starters & Promising
+10373,5,1,16.64,16.64,2,0.0,False,1,-1.097,-2.147,Recent Starters & Promising
+10374,17,1,1.8,1.8,1,0.0,False,1,-2.196,-1.858,Recent Starters & Promising
+10375,13,2,68.46,34.23,4,0.0,False,1,-0.549,-1.092,Recent Starters & Promising
+10376,12,2,51.07,25.54,2,0.0,False,1,-0.631,-1.212,Recent Starters & Promising
+10377,48,2,199.79,99.9,4,0.0,False,1,-0.607,0.008,Recent Starters & Promising
+10378,49,1,158.57,158.57,2,0.0,False,1,-1.042,-0.185,Recent Starters & Promising
+10379,23,2,50.4,25.2,2,0.0,False,1,-0.861,-0.804,Recent Starters & Promising
+10380,69,1,30.3,30.3,1,0.0,False,1,-1.782,-0.357,Recent Starters & Promising
+10381,63,2,52.95,26.48,3,0.0,False,1,-1.202,-0.133,Recent Starters & Promising
+10382,56,1,40.26,40.26,1,0.0,False,1,-1.602,-0.427,Recent Starters & Promising
+10383,9,1,12.53,12.53,1,0.0,False,1,-1.385,-1.868,Recent Starters & Promising
+10384,64,1,1.64,1.64,1,0.0,False,1,-2.69,-1.01,Recent Starters & Promising
+10385,15,2,130.96,65.48,2,0.0,False,1,-0.356,-0.846,Recent Starters & Promising
+10386,38,1,24.99,24.99,2,0.0,False,1,-1.637,-0.795,Recent Starters & Promising
+10387,21,1,43.6,43.6,2,0.0,False,1,-1.223,-1.048,Recent Starters & Promising
+10388,11,2,79.49,39.75,3,0.0,False,1,-0.437,-1.16,Recent Starters & Promising
+10389,77,1,57.14,57.14,2,0.0,False,1,-1.587,-0.133,Recent Starters & Promising
+10390,61,2,110.84,55.42,4,0.0,False,1,-0.915,0.024,Recent Starters & Promising
+10391,44,2,31.8,15.9,3,0.0,False,1,-1.262,-0.491,Recent Starters & Promising
+10392,88,1,20.33,20.33,2,0.0,False,1,-2.015,-0.289,Recent Starters & Promising
+10393,24,1,113.98,113.98,2,0.0,False,1,-0.912,-0.731,Recent Starters & Promising
+10394,45,2,97.1,48.55,1,0.0,False,1,-0.855,-0.209,Recent Starters & Promising
+10395,39,2,123.07,61.54,3,0.0,False,1,-0.715,-0.246,Recent Starters & Promising
+10396,61,1,17.7,17.7,1,0.0,False,1,-1.932,-0.564,Recent Starters & Promising
+10397,70,2,113.42,56.71,4,0.0,False,3,-0.956,0.12,At-Risk / Lapsed Customers
+10398,18,2,40.69,20.34,4,0.0,False,1,-0.854,-1.012,Recent Starters & Promising
+10399,35,2,8.64,4.32,1,0.0,False,1,-1.643,-0.94,Recent Starters & Promising
+10400,31,1,2.2,2.2,1,0.0,False,1,-2.357,-1.439,Recent Starters & Promising
+10401,81,1,100.1,100.1,1,0.0,False,1,-1.396,0.036,Recent Starters & Promising
+10402,67,1,21.0,21.0,2,0.0,False,1,-1.904,-0.462,Recent Starters & Promising
+10403,26,1,175.5,175.5,1,0.0,False,1,-0.778,-0.575,Recent Starters & Promising
+10404,16,2,82.31,41.16,4,0.0,False,1,-0.552,-0.918,Recent Starters & Promising
+10405,88,1,22.5,22.5,1,0.0,False,1,-1.978,-0.265,Recent Starters & Promising
+10406,59,2,71.4,35.7,3,0.0,False,1,-1.068,-0.105,Recent Starters & Promising
+10407,49,2,39.8,19.9,3,0.0,False,1,-1.218,-0.367,Recent Starters & Promising
+10408,12,1,132.1,132.1,1,0.0,False,1,-0.616,-1.134,Recent Starters & Promising
+10409,45,2,159.68,79.84,4,0.0,False,1,-0.668,-0.089,Recent Starters & Promising
+10410,21,1,48.82,48.82,2,0.0,False,1,-1.181,-1.021,Recent Starters & Promising
+10411,37,2,141.54,70.77,3,0.0,False,1,-0.644,-0.246,Recent Starters & Promising
+10412,6,2,78.6,39.3,2,0.0,False,1,-0.243,-1.525,Recent Starters & Promising
+10413,62,2,89.59,44.8,3,0.0,False,1,-1.001,-0.017,Recent Starters & Promising
+10414,5,1,19.69,19.69,1,0.0,False,1,-1.037,-2.108,Recent Starters & Promising
+10415,58,2,129.67,64.83,3,0.0,False,1,-0.838,0.028,Recent Starters & Promising
+10416,55,2,79.96,39.98,4,0.0,False,1,-1.0,-0.124,Recent Starters & Promising
+10417,77,1,18.0,18.0,2,0.0,False,1,-2.01,-0.406,Recent Starters & Promising
+10418,57,2,46.47,23.24,3,0.0,False,1,-1.215,-0.23,Recent Starters & Promising
+10419,42,1,31.68,31.68,1,0.0,False,1,-1.586,-0.673,Recent Starters & Promising
+10420,55,1,35.76,35.76,1,0.0,False,1,-1.639,-0.467,Recent Starters & Promising
+10421,7,2,94.55,47.28,4,0.0,False,1,-0.223,-1.39,Recent Starters & Promising
+10422,22,2,238.34,119.17,4,0.0,False,1,-0.263,-0.457,Recent Starters & Promising
+10423,28,2,99.26,49.63,3,0.0,False,1,-0.678,-0.514,Recent Starters & Promising
+10424,36,1,146.0,146.0,2,0.0,False,1,-0.963,-0.408,Recent Starters & Promising
+10425,23,2,45.56,22.78,2,0.0,False,1,-0.898,-0.828,Recent Starters & Promising
+10426,60,1,37.28,37.28,1,0.0,False,1,-1.655,-0.4,Recent Starters & Promising
+10427,22,1,24.64,24.64,2,0.0,False,1,-1.449,-1.153,Recent Starters & Promising
+10428,31,2,39.8,19.9,2,0.0,False,1,-1.054,-0.667,Recent Starters & Promising
+10429,81,2,82.65,41.32,3,0.0,False,3,-1.128,0.141,At-Risk / Lapsed Customers
+10430,79,1,8.88,8.88,1,0.0,False,1,-2.267,-0.548,Recent Starters & Promising
+10431,20,2,47.46,23.73,2,0.0,False,1,-0.834,-0.908,Recent Starters & Promising
+10432,79,2,134.12,67.06,2,0.0,False,3,-0.937,0.241,At-Risk / Lapsed Customers
+10433,7,1,8.24,8.24,2,0.0,False,1,-1.447,-2.111,Recent Starters & Promising
+10434,79,1,24.75,24.75,1,0.0,False,1,-1.904,-0.315,Recent Starters & Promising
+10435,20,2,31.02,15.51,2,0.0,False,1,-0.991,-1.009,Recent Starters & Promising
+10436,10,2,66.08,33.04,2,0.0,False,1,-0.474,-1.263,Recent Starters & Promising
+10437,9,2,109.32,54.66,2,0.0,False,1,-0.251,-1.206,Recent Starters & Promising
+10438,82,1,17.44,17.44,1,0.0,False,1,-2.044,-0.371,Recent Starters & Promising
+10439,79,1,43.56,43.56,1,0.0,False,1,-1.697,-0.181,Recent Starters & Promising
+10440,28,1,1.71,1.71,1,0.0,False,1,-2.384,-1.546,Recent Starters & Promising
+10441,14,2,237.15,118.58,3,0.0,False,1,-0.109,-0.745,Recent Starters & Promising
+10442,55,2,42.7,21.35,2,0.0,False,1,-1.233,-0.274,Recent Starters & Promising
+10443,58,1,50.9,50.9,1,0.0,False,1,-1.528,-0.348,Recent Starters & Promising
+10444,6,1,48.69,48.69,2,0.0,False,1,-0.762,-1.791,Recent Starters & Promising
+10445,42,2,136.14,68.07,3,0.0,False,1,-0.704,-0.173,Recent Starters & Promising
+10446,45,2,63.96,31.98,3,0.0,False,1,-1.011,-0.31,Recent Starters & Promising
+10447,63,2,12.83,6.42,3,0.0,False,1,-1.717,-0.465,Recent Starters & Promising
+10448,55,1,21.36,21.36,1,0.0,False,1,-1.827,-0.589,Recent Starters & Promising
+10449,32,2,129.55,64.78,2,0.0,False,1,-0.625,-0.362,Recent Starters & Promising
+10450,27,2,155.84,77.92,4,0.0,False,1,-0.496,-0.428,Recent Starters & Promising
+10451,33,2,71.75,35.88,3,0.0,False,1,-0.857,-0.485,Recent Starters & Promising
+10452,48,1,18.8,18.8,1,0.0,False,1,-1.824,-0.708,Recent Starters & Promising
+10453,34,2,44.19,22.1,4,0.0,False,1,-1.048,-0.582,Recent Starters & Promising
+10454,63,1,28.31,28.31,2,0.0,False,1,-1.774,-0.433,Recent Starters & Promising
+10455,21,1,23.1,23.1,1,0.0,False,1,-1.456,-1.198,Recent Starters & Promising
+10456,80,1,7.6,7.6,1,0.0,False,1,-2.324,-0.574,Recent Starters & Promising
+10457,34,1,3.05,3.05,1,0.0,False,1,-2.301,-1.321,Recent Starters & Promising
+10458,57,1,8.16,8.16,2,0.0,False,1,-2.177,-0.783,Recent Starters & Promising
+10459,60,1,16.52,16.52,1,0.0,False,1,-1.951,-0.591,Recent Starters & Promising
+10460,38,1,6.52,6.52,1,0.0,False,1,-2.106,-1.097,Recent Starters & Promising
+10461,31,2,75.66,37.83,3,0.0,False,1,-0.815,-0.513,Recent Starters & Promising
+10462,14,2,222.54,111.27,4,0.0,False,1,-0.132,-0.761,Recent Starters & Promising
+10463,32,2,11.36,5.68,2,0.0,False,1,-1.517,-0.937,Recent Starters & Promising
+10464,20,2,31.98,15.99,3,0.0,False,1,-0.98,-1.002,Recent Starters & Promising
+10465,8,2,102.88,51.44,4,0.0,False,1,-0.235,-1.291,Recent Starters & Promising
+10466,46,1,17.6,17.6,1,0.0,False,1,-1.832,-0.751,Recent Starters & Promising
+10467,70,2,215.18,107.59,4,0.0,False,3,-0.716,0.275,At-Risk / Lapsed Customers
+10468,36,2,18.56,9.28,2,0.0,False,1,-1.385,-0.749,Recent Starters & Promising
+10469,27,2,116.63,58.32,2,0.0,False,1,-0.604,-0.498,Recent Starters & Promising
+10470,35,2,41.28,20.64,3,0.0,False,1,-1.084,-0.579,Recent Starters & Promising
+10471,20,1,167.47,167.47,2,0.0,False,1,-0.703,-0.755,Recent Starters & Promising
+10472,60,1,76.68,76.68,1,0.0,False,1,-1.387,-0.227,Recent Starters & Promising
+10473,16,1,32.38,32.38,2,0.0,False,1,-1.238,-1.292,Recent Starters & Promising
+10474,74,1,73.03,73.03,2,0.0,False,1,-1.481,-0.1,Recent Starters & Promising
+10475,21,1,105.44,105.44,2,0.0,False,1,-0.894,-0.836,Recent Starters & Promising
+10476,76,1,5.13,5.13,1,0.0,False,1,-2.433,-0.69,Recent Starters & Promising
+10477,87,1,20.4,20.4,1,0.0,False,1,-2.009,-0.296,Recent Starters & Promising
+10478,19,2,138.95,69.47,2,0.0,False,1,-0.415,-0.682,Recent Starters & Promising
+10479,67,1,54.25,54.25,2,0.0,False,1,-1.556,-0.237,Recent Starters & Promising
+10480,83,1,24.36,24.36,1,0.0,False,1,-1.928,-0.285,Recent Starters & Promising
+10481,45,2,158.5,79.25,3,0.0,False,1,-0.671,-0.09,Recent Starters & Promising
+10482,78,2,44.21,22.1,3,0.0,False,1,-1.347,-0.035,Recent Starters & Promising
+10483,7,2,61.5,30.75,4,0.0,False,1,-0.384,-1.494,Recent Starters & Promising
+10484,30,2,68.52,34.26,4,0.0,False,1,-0.841,-0.558,Recent Starters & Promising
+10485,23,1,2.31,2.31,1,0.0,False,1,-2.239,-1.624,Recent Starters & Promising
+10486,24,1,20.3,20.3,1,0.0,False,1,-1.549,-1.142,Recent Starters & Promising
+10487,31,2,42.97,21.48,2,0.0,False,1,-1.026,-0.649,Recent Starters & Promising
+10488,71,2,25.6,12.8,3,0.0,False,1,-1.513,-0.226,Recent Starters & Promising
+10489,79,1,12.61,12.61,2,0.0,False,1,-2.146,-0.47,Recent Starters & Promising
+10490,41,2,228.63,114.32,4,0.0,False,1,-0.5,-0.063,Recent Starters & Promising
+10491,7,2,78.6,39.3,3,0.0,False,1,-0.292,-1.435,Recent Starters & Promising
+10492,62,1,96.08,96.08,2,0.0,False,1,-1.315,-0.151,Recent Starters & Promising
+10493,31,2,24.15,12.08,3,0.0,False,1,-1.237,-0.785,Recent Starters & Promising
+10494,7,1,22.98,22.98,1,0.0,False,1,-1.087,-1.879,Recent Starters & Promising
+10495,39,2,160.44,80.22,4,0.0,False,1,-0.615,-0.181,Recent Starters & Promising
+10496,77,2,111.97,55.98,3,0.0,False,3,-0.996,0.18,At-Risk / Lapsed Customers
+10497,52,1,77.25,77.25,2,0.0,False,1,-1.333,-0.32,Recent Starters & Promising
+10498,61,2,153.94,76.97,4,0.0,False,3,-0.792,0.103,At-Risk / Lapsed Customers
+10499,34,2,115.9,57.95,3,0.0,False,1,-0.689,-0.35,Recent Starters & Promising

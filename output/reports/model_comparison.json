@@ -1,0 +1,31 @@
+{
+  "comparison_table": [
+    {
+      "algorithm": "K-Means (k-means++)",
+      "n_clusters": 4,
+      "noise_count": 0,
+      "silhouette": 0.5195,
+      "davies_bouldin": 0.6559,
+      "calinski_harabasz": 831.83
+    },
+    {
+      "algorithm": "DBSCAN",
+      "n_clusters": 5,
+      "noise_count": 5,
+      "silhouette": 0.3959,
+      "davies_bouldin": 1.0901,
+      "calinski_harabasz": 411.87
+    },
+    {
+      "algorithm": "Agglomerative (ward)",
+      "n_clusters": 4,
+      "noise_count": 0,
+      "silhouette": 0.5193,
+      "davies_bouldin": 0.6504,
+      "calinski_harabasz": 821.7
+    }
+  ],
+  "recommended_model": "K-Means (k-means++)",
+  "selection_rationale": "K-Means with k-means++ initialization is recommended as the primary production model. In log-standardized RFM space, K-Means yields distinct, balanced customer segments with superior Silhouette and Calinski-Harabasz scores. DBSCAN (default eps=0.45, min_samples=5) produced multiple clusters with low noise on the synthetic demo in this run, but remains secondary and data-dependent; see dbscan_sensitivity_analysis.json. Metrics above are from the synthetic demo pipeline, not full UCI.",
+  "dataset_note": "synthetic_demo"
+}

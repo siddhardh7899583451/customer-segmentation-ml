@@ -1,0 +1,45 @@
+{
+  "dataset": "synthetic_demo (500 customers after cleaning, standardized RFM with log1p)",
+  "note": "Metrics only when 2 <= n_clusters < N after excluding noise. Not UCI results.",
+  "exact_default": {
+    "eps": 0.45,
+    "min_samples": 5,
+    "n_clusters": 5,
+    "noise_count": 5,
+    "noise_pct": 1.0,
+    "silhouette": 0.3959,
+    "davies_bouldin": 1.0901,
+    "calinski_harabasz": 411.87
+  },
+  "selection_rationale": "Under the project's fixed default min_samples=5 on standardized synthetic RFM, eps=0.40 yields a higher Silhouette (0.4395, 7 clusters, 2.8% noise) than eps=0.45 (0.3959, 5 clusters, 1.0% noise). eps=0.45 was still retained as the project default because it sits in the middle of the useful density band (approx 0.40-0.50), produces fewer micro-clusters (5 vs 7), keeps noise at about 1%, and avoids the single-cluster collapse observed at eps=0.65. The earlier grid peak at eps=0.40/min_samples=8 (Silhouette 0.5054) required changing min_samples and was not adopted as the default pair. Selection was not made to maximize Silhouette. K-Means++ remains the primary recommended model; DBSCAN defaults are starting points and remain data-dependent.",
+  "neighboring_points_min_samples_5": {
+    "0.4": {
+      "n_clusters": 7,
+      "noise_pct": 2.8,
+      "silhouette": 0.4395,
+      "davies_bouldin": 0.907,
+      "calinski_harabasz": 599.82
+    },
+    "0.45": {
+      "n_clusters": 5,
+      "noise_pct": 1.0,
+      "silhouette": 0.3959,
+      "davies_bouldin": 1.0901,
+      "calinski_harabasz": 411.87
+    },
+    "0.5": {
+      "n_clusters": 4,
+      "noise_pct": 0.4,
+      "silhouette": 0.4258,
+      "davies_bouldin": 1.1758,
+      "calinski_harabasz": 526.95
+    }
+  },
+  "default_before": {
+    "eps": 0.65,
+    "min_samples": 5,
+    "observed": "typically 1 cluster, metrics N/A"
+  },
+  "recommendation": "K-Means++ remains the primary model. DBSCAN eps is data-dependent.",
+  "honesty_note": "eps=0.40 with min_samples=5 has a higher Silhouette than the chosen default. The default prioritizes a moderate cluster count and very low noise over pure Silhouette maximization."
+}

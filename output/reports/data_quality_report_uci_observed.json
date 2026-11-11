@@ -1,0 +1,16 @@
+{
+  "source": "UCI Online Retail (full download during audit)",
+  "total_raw_rows": 541909,
+  "missing_customer_ids": 135080,
+  "duplicate_rows_removed": 5225,
+  "cancelled_transactions": 8872,
+  "zero_or_negative_price_rows": 40,
+  "zero_or_negative_quantity_rows": 0,
+  "final_valid_rows": 392692,
+  "unique_customers": 4338,
+  "earliest_date": "2010-12-01 08:26:00",
+  "latest_date": "2011-12-09 12:50:00",
+  "country_count": 37,
+  "retention_rate_pct": 72.46,
+  "note": "Captured during independent audit. Full pipeline figures not regenerated in low-RAM environment."
+}

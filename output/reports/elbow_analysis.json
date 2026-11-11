@@ -1,0 +1,53 @@
+{
+  "elbow_analysis": [
+    {
+      "k": 2,
+      "inertia": 607.27,
+      "silhouette": 0.5281,
+      "davies_bouldin": 0.7023,
+      "calinski_harabasz": 732.1
+    },
+    {
+      "k": 3,
+      "inertia": 380.29,
+      "silhouette": 0.4998,
+      "davies_bouldin": 0.7404,
+      "calinski_harabasz": 731.68
+    },
+    {
+      "k": 4,
+      "inertia": 248.71,
+      "silhouette": 0.5195,
+      "davies_bouldin": 0.6559,
+      "calinski_harabasz": 831.83
+    },
+    {
+      "k": 5,
+      "inertia": 193.07,
+      "silhouette": 0.4973,
+      "davies_bouldin": 0.8193,
+      "calinski_harabasz": 837.67
+    },
+    {
+      "k": 6,
+      "inertia": 164.54,
+      "silhouette": 0.4812,
+      "davies_bouldin": 0.7894,
+      "calinski_harabasz": 801.88
+    },
+    {
+      "k": 7,
+      "inertia": 142.57,
+      "silhouette": 0.444,
+      "davies_bouldin": 0.8406,
+      "calinski_harabasz": 782.32
+    },
+    {
+      "k": 8,
+      "inertia": 123.53,
+      "silhouette": 0.3899,
+      "davies_bouldin": 0.9266,
+      "calinski_harabasz": 783.17
+    }
+  ]
+}
