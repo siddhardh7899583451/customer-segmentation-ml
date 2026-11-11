@@ -1,6 +1,12 @@
 # DEPLOYMENT STATUS
 
-**Hugging Face Static Space:** Prepared, **NOT DEPLOYED**
+**Hugging Face Static Space:** DEPLOYED
+
+**URL:** https://huggingface.co/spaces/SIDDHARDHKUNCHA/customer-segmentation-analytics
+
+- sdk: static
+- app_file: index.html
+- Status: Running
 
 ## Package Location
 
