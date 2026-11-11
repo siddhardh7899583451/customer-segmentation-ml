@@ -18,7 +18,7 @@ An enterprise-grade unsupervised machine learning platform and client-side behav
 - **Strict Mathematical Validation:** Enforces mathematical pre-conditions before calculating Silhouette, Davies-Bouldin, and Calinski-Harabasz metrics ($2 \le k < N$), properly isolating noise in density algorithms like DBSCAN without reporting fabricated or misleading metrics.
 - **Empirical Persona Derivation:** Segments are labeled dynamically based on statistical rankings across monetary spend, purchase frequency, and recency, directly mapping managerial strategies to real cluster behavior.
 - **Enterprise Security:** Mitigates CSV Formula Injection (DDE) by sanitizing text exports, enforces XSS defense through strict text-node DOM creation, and processes data strictly within local workspace memory.
-- **Hugging Face Static Package:** Dedicated static deployment bundle in `deployment/huggingface-space/` (prepared, **not deployed** until explicitly authorized).
+- **Hugging Face Static Package:** Dedicated static deployment bundle in `deployment/huggingface-space/` (prepared, **deployed** ).
 
 ---
 
